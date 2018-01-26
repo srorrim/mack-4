@@ -1,0 +1,150 @@
+/* font-family: 'Poiret One', cursive;
+font-family: 'Quicksand', sans-serif;  */
+
+/* hero img : '../img/talgat-baizrahmanov-206220.jpg' */
+
+h1,h2 {
+   font-family: 'Caveat', cursive;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2 {
+   font-size: 30px;
+   text-align: center;
+   padding-top: 25px;
+   letter-spacing: normal;
+}
+
+i {
+   color: #8DA7BE;
+}
+/* p {
+   font-family: 'Quicksand', sans-serif;
+} */
+/* button {
+   color: #CDE6F5;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 15px;
+   padding: 10px 40px;
+   text-transform: lowercase;
+   border-radius: 5px;
+   margin: 450px 20px;
+   background-color: transparent;
+   border: 2px solid #CDE6F5;
+   } */
+
+
+
+/* Header Styles */
+
+header {
+   height: 100px;
+   background: #CDE6F5;
+   padding-top: 20px;
+}
+
+/* Header Navigation */
+.desktop-nav {
+   margin-left: 25px;
+}
+
+
+.desktop-nav ul {
+   float: right;
+   margin-top: -90px;
+   text-align: right;
+   padding: 40px;
+}
+
+.desktop-nav li {
+   float: right;
+   display: inline;
+   text-decoration: none;
+   margin-left: 40px;
+   margin-bottom: 90px;
+}
+
+.desktop-nav a {
+   color:  #8DA7BE;
+   text-decoration: none;
+   font-family: 'Caveat', cursive;
+   font-size: 20px;
+}
+
+.desktop-logo-container {
+
+}
+.mobile-nav {
+   display: none;
+}
+
+@media(max-width: 572px) {
+   .mobile-nav {
+       display:inline-block;
+       float: right;
+       margin-right: 25px;
+   }
+   .desktop-nav ul {
+       display: none;
+   }
+   .mobile-nav .button {
+   background: transparent;
+   border: none;
+   color: white;
+   }
+   button {
+       margin: 300px 0;
+   }
+   footer {
+   height: 400px;
+   }
+}
+/* HERO */
+
+
+.hero {
+   height: calc(100vh - 90px);
+   background-image:linear-gradient(180deg, #CDE6F5 ,transparent 60%), url('../img/talgat-baizrahmanov-206220.jpg');
+   background-size: cover;
+   background-position: center;
+   color: #CDE6F5;
+   text-align: center;
+}
+.hero-text {
+   padding: 60px 30px;
+   float: left;
+}
+
+
+.about-hero{
+    height: calc(100vh - 90px);
+    background-image: linear-gradient(180deg, ,transparent 60%), url(../img/rob-plotter-398564.jpg);
+
+}
+
+/* containers */
+
+.container {
+   display: inline-block;
+   padding: 5px 15px;
+
+}
+
+/* FOOTER */
+
+
+footer {
+   height: 350px;
+   background-color: #CDE6F5;
+
+}
+.social-icons {
+   position: relative;
+   display: inline-block;
+   letter-spacing: 50px;
+   padding: 0 50px;
+   float: right;
+}
