@@ -115,7 +115,7 @@ body {
    font-size: 20px;
 }
 
-
+/
 
 .mobile-nav {
    display: none;
@@ -128,7 +128,8 @@ body {
        margin-right: 25px;
        color: inherit;
    }
-   .desktop-nav ul {
+   .desktop-nav ul,
+   .about-desktop-nav ul {
        display: none;
    }
    .mobile-nav .button {
@@ -166,8 +167,13 @@ body {
     background-image:linear-gradient(180deg, #011016,transparent 60%), url('../img/rob-potter-398564.jpg');
     background-size: cover;
     background-position: center;
+}
 
-    ;
+.contact-hero {
+    height: calc(100vh - 90px);
+    background-image:linear-gradient(180deg, #011016,transparent 60%), url('../img/freestocks-org-153858.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* containers */
