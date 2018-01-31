@@ -121,6 +121,13 @@ body {
    display: none;
 }
 
+@media(min-width: 572px) {
+    .mobile-nav{
+        display: none;
+    }
+}
+
+
 @media(max-width: 572px) {
    .mobile-nav {
        display:inline-block;
@@ -189,16 +196,16 @@ body {
 footer {
    height: 350px;
    background-color: #CDE6F5;
+   display: flex;
 }
 
 .about-footer {
-    hieght: 350px;
     background-color: #022835;
+    width: 100%;
 }
 .social-icons {
-   position: relative;
+    width: 100%;
    display: inline-block;
    letter-spacing: 50px;
-   padding: 0 50px;
-   float: right;
+   margin-top: 25px;
 }
