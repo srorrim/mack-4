@@ -84,8 +84,24 @@ body {
    font-size: 20px;
    overflow: hidden;
 }
+.summary {
+  background-color: #CDE6F5;
+  height: 250px;
+  display: flex;
+  overflow: hidden;
+}
+.summary p {
+  width: 60%;
+  height: 200px;
+  color: #8DA7BE;
+  text-align: center;
+  position: relative;
+  margin: 30px 200px;
 
-
+}
+.summary p:hover {
+  transform: scale(10%);
+}
 
 /* about nav */
 
