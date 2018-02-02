@@ -123,9 +123,24 @@ body {
 
 
 .about-section {
-    height: 400px;
+    height: 250px;
+    display: flex;s
 }
+.about-section p {
+  color: #8DA7BE;
+  font-size: 15px;
+  justify-content: flex-end;
+  width: 40%;
+  margin-top: 50px;
 
+}
+.about-section img {
+  height: 150px;
+  width: 40%;
+  margin-top: 50px;
+  padding:0 60px;
+  border-radius: 25px;
+}
 /* contact-nav */
 
 .contact-desktop-nav {
