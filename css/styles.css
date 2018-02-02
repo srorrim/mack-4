@@ -191,12 +191,19 @@ body {
 }
  .contact-section {
      height: 400px;
+     display: flex;
+     align-content: center;
  }
 .contact-section input {
     width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
+    
+}
+.comments input {
+  width: 100px;
+  height: 60px;
+
 }
 
 /* product nav */
@@ -234,8 +241,23 @@ body {
 
 
 .product-section {
-    height: 400px;
+    height: 300px;
+    display: flex;
+
 }
+.product-section-card1 {
+
+}
+.product-section-card2{
+
+}
+.product-section ul {
+
+}
+
+
+
+
 /* mobile nav  */
 
 
@@ -316,6 +338,8 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+
 
 /* containers */
 
