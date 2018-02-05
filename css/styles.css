@@ -91,7 +91,7 @@ body {
   overflow: hidden;
 }
 .summary p {
-  width: 60%;
+  width: 80%;
   height: 200px;
   color: #8DA7BE;
   text-align: center;
@@ -291,20 +291,33 @@ button {
 .mobile-nav {
    display: none;
 }
-
-@media(min-width: 756px) {
-    .mobile-nav{
+.btn-group {
+  display: none;
+  float: right;
+}
+@media(min-width: 591px) {
+    .btn-group {
         display: none;
     }
 }
 
 
-@media(max-width: 756px) {
-   .mobile-nav {
+@media(max-width: 591px) {
+   .btn-group {
+      height: 20px;
        display:inline-block;
        float: right;
        margin-right: 25px;
        color: inherit;
+   }
+   .btn-group {
+     display: inline-block;
+   }
+   .btn-group ul{
+     float: right;
+     background-color: #8DA7BE;
+     color: darkgrey;
+
    }
    .desktop-nav ul,
    .about-desktop-nav ul,
@@ -318,7 +331,7 @@ button {
    color: white;
    }
    button {
-       margin: 300px 0;
+       margin: 0;
    }
    footer {
    height: 400px;
