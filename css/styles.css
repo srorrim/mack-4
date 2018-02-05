@@ -138,7 +138,7 @@ body {
 
 .about-section {
     height: 250px;
-    display: flex;s
+    display: flex;
 }
 .about-section p {
   color: #8DA7BE;
@@ -154,7 +154,7 @@ body {
   width: 40%;
   margin-top: 50px;
   padding:0 60px;
-  border-radius: 25px 10%;
+  border-radius: 25px;
   min-width: 20px;
 }
 /* contact-nav */
