@@ -206,7 +206,7 @@ form {
 textarea {
   width: auto;
 }
-button {
+.contact-section button {
   height: 25px;
   width: 60px;
   border-radius: 25px;
@@ -300,8 +300,6 @@ button {
         display: none;
     }
 }
-
-
 @media(max-width: 591px) {
    .btn-group {
       height: 20px;
@@ -332,6 +330,10 @@ button {
    }
    button {
        color: #8DA7BE;
+       background-color: transparent;
+       border: none;
+
+
    }
    footer {
    height: 400px;
